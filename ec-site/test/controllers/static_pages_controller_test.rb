@@ -6,4 +6,8 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get old" do
+    get static_pages_old_url
+    assert_response :success
+  end
 end
