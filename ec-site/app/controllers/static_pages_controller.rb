@@ -4,4 +4,7 @@ class StaticPagesController < ApplicationController
 
   def old
   end
+
+  def new
+  end
 end

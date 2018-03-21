@@ -10,4 +10,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get static_pages_old_url
     assert_response :success
   end
+
+  test "should get new" do
+    get static_pages_new_url
+    assert_response :success
+  end
 end
