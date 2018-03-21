@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
 
   def new
   end
+
+  def hokkaido
+  end
 end

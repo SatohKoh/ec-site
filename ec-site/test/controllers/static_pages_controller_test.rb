@@ -15,4 +15,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get static_pages_new_url
     assert_response :success
   end
+
+  test "should get hokkaido" do
+    get static_pages_hokkaido_url
+    assert_response :success
+  end
 end

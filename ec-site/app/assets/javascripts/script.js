@@ -94,16 +94,16 @@ $(function(){
 
 	//リンク先を連想配列で設定
 	var areaLinks = {
-		"北海道地方" : "/new",
-		"東北地方" : "/new",
-		"関東地方" : "/new",
-		"北陸・甲信越地方" : "/new",
-		"東海地方" : "/new",
-		"近畿地方" : "/new",
-		"中国地方" : "/new",
-		"四国地方" : "/new",
-		"九州地方" : "/new",
-		"沖縄地方" : "/new",
+		"北海道地方" : "/hokkaido",
+		"東北地方" : "/hokkaido",
+		"関東地方" : "/hokkaido",
+		"北陸・甲信越地方" : "/hokkaido",
+		"東海地方" : "/hokkaido",
+		"近畿地方" : "/hokkaido",
+		"中国地方" : "/hokkaido",
+		"四国地方" : "/hokkaido",
+		"九州地方" : "/hokkaido",
+		"沖縄地方" : "/hokkaido",
 	};
 
 	$("#map").japanMap(
