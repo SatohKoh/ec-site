@@ -239,8 +239,18 @@ section h2{
 }
 
 .mapcontainer{
-	text-align: center;
 	height: 600px;
+	overflow: hidden;
+}
+
+.innermap{
+	float: left;
+}
+
+.mapdetail{
+	float: left;
+	width: 400px;
+  margin: 5% 5%;
 }
 
 

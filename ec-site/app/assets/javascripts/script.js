@@ -89,7 +89,7 @@ $(function(){
 		{"code": 7 , "name":"中国地方", "color":"#f9ca6c", "hoverColor":"#ffe5b0", "prefectures":[31,32,33,34,35], "detail":"生産者<br>特徴"},
 		{"code": 8 , "name":"四国地方", "color":"#fbad8b", "hoverColor":"#ffd7c5", "prefectures":[36,37,38,39], "detail":"生産者<br>特徴"},
 		{"code": 9 , "name":"九州地方", "color":"#f7a6a6", "hoverColor":"#ffcece", "prefectures":[40,41,42,43,44,45,46], "detail":"生産者<br>特徴"},
-		{"code":10 , "name":"沖縄地方", "color":"#ea89c4", "hoverColor":"#fdcae9", "prefectures":[47], "detail":"生産者<br>特徴"}
+		// {"code":10 , "name":"沖縄地方", "color":"#ea89c4", "hoverColor":"#fdcae9", "prefectures":[47], "detail":"生産者<br>特徴"}
 	];
 
 	//リンク先を連想配列で設定
@@ -103,7 +103,7 @@ $(function(){
 		"中国地方" : "/hokkaido",
 		"四国地方" : "/hokkaido",
 		"九州地方" : "/hokkaido",
-		"沖縄地方" : "/hokkaido",
+		// "沖縄地方" : "/hokkaido",
 	};
 
 	$("#map").japanMap(
@@ -112,10 +112,9 @@ $(function(){
 			selection : "area", //選ぶことができる範囲(県→prefecture、エリア→area)
 			borderLineWidth: 0.25, //線の幅
 			drawsBoxLine : false, //canvasを線で囲む場合はtrue
-			movesIslands : true, //南西諸島を左上に移動させるときはtrue、移動させないときはfalse
+			movesIslands : false, //南西諸島を左上に移動させるときはtrue、移動させないときはfalse
 			showsAreaName : true, //エリア名を表示しない場合はfalse
 			width: 800, //canvasのwidth。別途heightも指定可。
-			height: 800,
 			backgroundColor: "#ffffff", //canvasの背景色
 			font : "MS Mincho", //地図に表示する文字のフォント
 			fontSize : 12, //地図に表示する文字のサイズ
