@@ -502,3 +502,23 @@ section h2{
 		padding: 0 20px;
 	}
 }
+
+@media only screen and (max-width: 640px){
+	#text{
+		padding: 10px 4px;
+		text-align: center;
+	  color: #FFF;
+	}
+
+	.mapcontainer{
+		height: 300px;
+	}
+
+	.innermap{
+	}
+
+	.mapdetail{
+		width: 300px;
+	  margin: 5% 5%;
+	}
+}
