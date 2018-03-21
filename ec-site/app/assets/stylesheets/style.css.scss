@@ -64,14 +64,14 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 #slogan h1{
-	font-size: 40px;
+	font-size: 80px;
 	font-family: 'Pacifico', cursive;
 	margin-bottom: 20px;
 	font-weight:normal;
 }
 
 #slogan h2{
-	font-size: 20px;
+	font-size: 40px;
 	font-weight:normal;
 }
 
@@ -118,34 +118,27 @@ section h2{
 }
 
 
-/* SEC01 ABOUT US
+/* SEC01 当社の思い
 ------------------------------------------------------------*/
 
 .about{
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 80px;
+	font-size: 18px;
 }
 
 
-/* SEC02 MESSAGE
+/* SEC02 事業概要
 ------------------------------------------------------------*/
 .wrap{
-	clear: both;
-	width: 100%;
-	background: #f6f6f6;
-}
-
-.bg{
-	line-height: 0;
-}
-
-.txt h2{
-	padding: 0 0 20px !important;
+	width: 60%;
+	background: #fff;
+	margin: 0 auto;
 }
 
 
-/* SEC03 SERVICE MESSAGE STORY
+/* SEC03 サービス
 ------------------------------------------------------------*/
 .col3 li{
 	margin-bottom: 50px;
@@ -158,7 +151,7 @@ section h2{
 }
 
 
-/* SEC04 STORY & SUCCESS
+/* SEC04 会社情報
 ------------------------------------------------------------*/
 #sec04{
 	background: image-url('bgSec04.jpg') no-repeat 100% 100% fixed;
@@ -168,7 +161,7 @@ section h2{
 }
 
 
-/* SEC05 PROFILE
+/* SEC05 お問い合わせ
 ------------------------------------------------------------*/
 #sec05{
 	padding-top: 50px;

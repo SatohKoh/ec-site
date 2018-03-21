@@ -6,84 +6,65 @@
 	<div class="panel">
 		<ul>
 			<li><a href="#header">TOP</a></li>
-			<li><a href="#sec01">ABOUT US</a></li>
-			<li><a href="#sec02">MESSAGE</a></li>
-			<li><a href="#sec03">SERVICE</a></li>
-			<li><a href="#sec04">STORY</a></li>
-			<li><a href="#sec05">PROFILE</a></li>
+			<li><a href="#sec01">当社の思い</a></li>
+			<li><a href="#sec02">事業概要</a></li>
+			<li><a href="#sec03">サービス</a></li>
+			<li><a href="#sec04">会社情報</a></li>
+			<li><a href="#sec05">お問い合わせ</a></li>
 		</ul>
 	</div>
 </nav>
 
 <header id="header">
-  <%= image_tag 'mainImg.jpg' %>
+  <%= image_tag 'top.jpg' %>
 	<div id="slogan">
-		<h1>生産者と消費者を繋ぐECサイト</h1>
-		<h2>最新技術と農業との調和を目指す</h2>
+		<h1>農業を身近に</h1>
+		<h2>〜生産者と消費者をつなぐ〜</h2>
 	</div>
 </header>
 
-<!-- ABOUT US -->
+<!-- 当社の思い -->
 <section id="sec01">
 	<header>
-		<h2>ABOUT US</h2>
+		<h2>当社の思い</h2>
 	</header>
 	<div class="about">
-		ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいうには及ばないはずである。上にいったようなことがらについては、曖昧あいまいな態度をとり、または真実でない知識を強いて注入していたことも、明かな事実である。
+		日本では、地方から都市部へと人財の流出が起こり、一極集中型の社会となっています。<br>当社は『農業が魅力的で誰もが従事したいと思える産業に』すべく事業を行い、地方の魅力を少しでも上げられるよう、邁進致します。<br>その中で、生産者と消費者をつなぎ、農業を介して地方と都市部の距離を縮めたいと思います。
 	</div>
 </section>
-<!-- // ABOUT US -->
+<!-- // 当社の思い -->
 
-<!-- MESSAGE -->
+<!-- 事業概要 -->
 <section id="sec02">
+	<header>
+		<h2>事業概要</h2>
+	</header>
 	<div class="wrap">
-		<p class="bg">
-      <%= image_tag 'sec02_01.jpg' %>
-    </p>
-		<div class="txt">
-			<div class="vMid">
-				<h2>MESSAGE</h2>
-				<p>ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
-			</div>
-		</div>
-	</div>
-	<div id="sec02_02" class="wrap">
-		<p class="bg">
-      <%= image_tag 'sec02_02.jpg' %>
-    </p>
-		<div class="txt">
-			<div class="vMid">
-				<h2>MESSAGE</h2>
-				<p>日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
-			</div>
-		</div>
+		<%= image_tag 'gaiyou.png' %>
 	</div>
 </section>
-<!-- // MESSAGE -->
+<!-- // 事業概要 -->
 
-<!-- SERVICE -->
+<!-- サービス -->
 <section id="sec03">
+	<header>
+		<h2>サービス</h2>
+	</header>
 	<div class="inner">
 		<ul class="col3">
 			<li>
-				<h2><%= link_to "古米", old_path %></h2>
-        <%= image_tag 'circleImg01.png' %>
-				<p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
+				<a href="/old"><%= image_tag 'old.png' %></a>
 			</li>
 			<li>
-				<h2><%= link_to "新米", new_path %></h2>
-        <%= image_tag 'circleImg02.png' %>
-				<p>日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば意義であるならば。</p>
+				<a href="/new"><%= image_tag 'new.png' %></a>
 			</li>
 			<li>
-				<h2>体験</h2>
-        <%= image_tag 'circleImg03.png' %>
-				<p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
+				<%= image_tag 'experience.png' %>
 			</li>
 		</ul>
 	</div>
 </section>
-<!-- // SERVICE -->
+<!-- // サービス -->
 
 <!-- STORY -->
 <section id="sec04">
