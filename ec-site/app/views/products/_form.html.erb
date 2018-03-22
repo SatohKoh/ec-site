@@ -36,6 +36,11 @@
     <%= form.text_field :detail, id: :product_detail %>
   </div>
 
+  <div class="field">
+    <%= form.label :image %>
+    <%= form.file_field :image, id: :product_image %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>

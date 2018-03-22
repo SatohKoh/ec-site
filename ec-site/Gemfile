@@ -35,6 +35,9 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'jquery-rails'
 
+# 画像アップロード用
+gem 'carrierwave'
+
 # クレカ支払い用
 gem 'payjp'
 

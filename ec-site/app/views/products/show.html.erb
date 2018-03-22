@@ -5,22 +5,23 @@
 	<div class="inner">
 		<ul class="col2">
 			<li>
-				<%= image_tag 'rice1.jpg' %>
+				<%= image_tag @product.image.to_s %>
 			</li>
 			<li>
         <p id="notice"><%= notice %></p>
+				<p><%= @product.detail %></p>
         <p class="price">
-          <strong>Price:</strong>
+          <strong>価格:</strong>
           <%= @product.price %>
         </p>
 
         <p>
-          <strong>Weight:</strong>
+          <strong>重さ:</strong>
           <%= @product.weight %>
         </p>
 
         <p>
-          <strong>Stock:</strong>
+          <strong>数量:</strong>
           <%= @product.stock %>
         </p>
 
