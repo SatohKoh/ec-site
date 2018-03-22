@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :products
   root 'static_pages#home'
   get '/old', to: 'static_pages#old'
   get '/new', to: 'static_pages#new'
