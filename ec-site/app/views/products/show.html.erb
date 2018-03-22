@@ -5,29 +5,48 @@
 	<div class="inner">
 		<ul class="col2">
 			<li>
+				<!-- イメージ画像 -->
 				<%= image_tag @product.image.to_s %>
 			</li>
 			<li>
+				<!-- 購入後のフラッシュ -->
         <p id="notice"><%= notice %></p>
+
+				<!-- お米の詳細 -->
 				<p><%= @product.detail %></p>
+
+				<!-- 価格 -->
         <p class="price">
-          <strong>価格:</strong>
-          <%= @product.price %>
+          ¥&nbsp;<%= @product.price %>
         </p>
 
-        <p>
-          <strong>重さ:</strong>
-          <%= @product.weight %>
-        </p>
+				<!-- 注意書き -->
+				<p class="note">*こちらの価格には消費税が含まれています。<br>*この商品は送料無料です。</p>
 
-        <p>
-          <strong>数量:</strong>
-          <%= @product.stock %>
-        </p>
+				<!-- 重さ -->
+        <div class="weight">
+          重さ:&nbsp;
+					<select>
+						<option value="サンプル1"><%= @product.weight %>kg</option>
+						<option value="サンプル2"><%= @product.weight %>kg</option>
+						<option value="サンプル3"><%= @product.weight %>kg</option>
+					</select>
+        </div>
 
-        <%= link_to 'Edit', edit_product_path(@product) %> |
-        <%= link_to 'Back', products_path %>
+				<!-- 数量 -->
+        <div class="number">
+          数量:&nbsp;
+					<select>
+						<option value="サンプル1"><%= @product.stock %></option>
+						<option value="サンプル2"><%= @product.stock %></option>
+						<option value="サンプル3"><%= @product.stock %></option>
+					</select>
+        </div>
 
+        <!-- <%= link_to 'Edit', edit_product_path(@product) %> |
+        <%= link_to 'Back', products_path %> -->
+
+				<!-- クレカで支払い -->
         <%= form_tag(action: :pay, method: :post) do %>
           <script type="text/javascript"
             src="https://checkout.pay.jp"

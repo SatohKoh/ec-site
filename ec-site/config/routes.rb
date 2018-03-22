@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '/old', to: 'static_pages#old'
   get '/new', to: 'static_pages#new'
   get '/hokkaido', to: 'static_pages#hokkaido'
+  get 'products/1'
 
   resources :products do
     post :pay, on: :member
