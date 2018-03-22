@@ -31,6 +31,11 @@
     <%= form.number_field :stock, id: :product_stock %>
   </div>
 
+  <div class="field">
+    <%= form.label :detail %>
+    <%= form.text_field :detail, id: :product_detail %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
