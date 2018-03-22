@@ -1,0 +1,41 @@
+<section id="sec03">
+	<header>
+		<h2><%= @product.name %></h2>
+	</header>
+	<div class="inner">
+		<ul class="col2">
+			<li>
+				<%= image_tag @product.image.to_s %>
+			</li>
+			<li>
+        <p id="notice"><%= notice %></p>
+				<p><%= @product.detail %></p>
+        <p class="price">
+          <strong>価格:</strong>
+          <%= @product.price %>
+        </p>
+
+        <p>
+          <strong>重さ:</strong>
+          <%= @product.weight %>
+        </p>
+
+        <p>
+          <strong>数量:</strong>
+          <%= @product.stock %>
+        </p>
+
+        <%= link_to 'Edit', edit_product_path(@product) %> |
+        <%= link_to 'Back', products_path %>
+
+        <%= form_tag(action: :pay, method: :post) do %>
+          <script type="text/javascript"
+            src="https://checkout.pay.jp"
+            class="payjp-button"
+            data-key="pk_test_0383a1b8f91e8a6e3ea0e2a9">
+          </script>
+        <% end %>
+			</li>
+		</ul>
+	</div>
+</section>
