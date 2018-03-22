@@ -106,7 +106,7 @@ $(function(){
 		// "沖縄地方" : "/hokkaido",
 	};
 
-	$("#map").japanMap(
+	$("#map-pc").japanMap(
 		{
 			areas : areas, //上で設定したエリアの情報
 			selection : "area", //選ぶことができる範囲(県→prefecture、エリア→area)
@@ -118,6 +118,29 @@ $(function(){
 			backgroundColor: "#ffffff", //canvasの背景色
 			font : "MS Mincho", //地図に表示する文字のフォント
 			fontSize : 12, //地図に表示する文字のサイズ
+			fontColor : "areaColor", //地図に表示する文字の色。"areaColor"でエリアの色に合わせる
+			fontShadowColor : "black", //地図に表示する文字の影の色
+			onSelect:function(data){ //選択範囲をクリックしたときに実行
+				location.href = areaLinks[data.area.name]; //data.area.nameは選択したエリアの名前
+			},
+			onHover:function(data){//マウスオーバー時
+				$("#text").html(data.area.name + "<br>" + data.area.detail);
+				$("#text").css("background", data.area.color);
+			},
+		}
+	);
+	$("#map-phone").japanMap(
+		{
+			areas : areas, //上で設定したエリアの情報
+			selection : "area", //選ぶことができる範囲(県→prefecture、エリア→area)
+			borderLineWidth: 0.25, //線の幅
+			drawsBoxLine : false, //canvasを線で囲む場合はtrue
+			movesIslands : false, //南西諸島を左上に移動させるときはtrue、移動させないときはfalse
+			showsAreaName : true, //エリア名を表示しない場合はfalse
+			width: 400, //canvasのwidth。別途heightも指定可。
+			backgroundColor: "#ffffff", //canvasの背景色
+			font : "MS Mincho", //地図に表示する文字のフォント
+			fontSize : 10, //地図に表示する文字のサイズ
 			fontColor : "areaColor", //地図に表示する文字の色。"areaColor"でエリアの色に合わせる
 			fontShadowColor : "black", //地図に表示する文字の影の色
 			onSelect:function(data){ //選択範囲をクリックしたときに実行

@@ -231,8 +231,13 @@ section h2{
   color: #FFF;
 }
 
-.mapcontainer{
-	height: 600px;
+.mapcontainer-pc{
+	height: 0px;
+	overflow: hidden;
+}
+
+.mapcontainer-phone{
+	height: 330px;
 	overflow: hidden;
 }
 
@@ -371,6 +376,22 @@ section h2{
 
   #footer{
 		padding: 30px 10px 70px 0;
+	}
+
+	#text{
+		padding: 10px 4px;
+		text-align: center;
+	  color: #FFF;
+	}
+
+	.mapcontainer-pc{
+		height: 600px;
+		overflow: hidden;
+	}
+
+	.mapcontainer-phone{
+		height: 0px;
+		overflow: hidden;
 	}
 }
 
