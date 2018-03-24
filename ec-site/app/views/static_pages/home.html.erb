@@ -7,9 +7,9 @@
 		<ul>
 			<li><a href="#header">Top</a></li>
 			<li><a href="#sec01">Message</a></li>
-			<li><a href="#sec02">Service</a></li>
-			<li><a href="#sec03">Profile</a></li>
-			<li><a href="#sec04">Contact</a></li>
+			<li><a href="#sec03">Service</a></li>
+			<li><a href="#sec04">Profile</a></li>
+			<li><a href="#sec05">Contact</a></li>
 		</ul>
 	</div>
 </nav>
@@ -69,38 +69,34 @@
 <!-- // Message -->
 
 <!-- Service -->
-<section id="sec02">
+<section id="sec03">
 	<header>
 		<h2>Service</h2>
 	</header>
-	<div class="wrap">
-		<%= image_tag 'gaiyou.png' %>
-	</div>
-</section>
-<!-- // Service -->
-
-<!-- サービス -->
-<section id="sec03">
-	<header>
-		<h2>サービス</h2>
-	</header>
 	<div class="inner">
 		<ul class="col3">
+			<a href="/old">
+				<li>
+					<%= image_tag 'oldrice.jpg' %>
+					<div class="service">熟成米</div>
+				</li>
+			</a>
+			<a href="/new">
+				<li>
+					<%= image_tag 'newrice.jpg' %>
+					<div class="service">新米</div>
+				</li>
+			</a>
 			<li>
-				<a href="/old"><%= image_tag 'old.png' %></a>
-			</li>
-			<li>
-				<a href="/new"><%= image_tag 'new.png' %></a>
-			</li>
-			<li>
-				<%= image_tag 'experience.png' %>
+				<%= image_tag 'experience2.jpg' %>
+				<div class="service">体験</div>
 			</li>
 		</ul>
 	</div>
 </section>
-<!-- // サービス -->
+<!-- // Service -->
 
-<!-- STORY -->
+<!-- Profile -->
 <section id="sec04">
 	<div class="inner">
 		<ul class="col2">
@@ -115,9 +111,9 @@
 		</ul>
 	</div>
 </section>
-<!-- // STORY -->
+<!-- // Profile -->
 
-<!-- PROFILE -->
+<!-- Contact -->
 <section id="sec05">
 	<header>
 		<h2>PROFILE</h2>
@@ -152,6 +148,6 @@
 		</ul>
 	</div>
 </section>
-<!-- // PROFILE -->
+<!-- // Contact -->
 
 </body>

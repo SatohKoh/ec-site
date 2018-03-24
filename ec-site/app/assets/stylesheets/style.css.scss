@@ -278,20 +278,38 @@ section h3{
 }
 
 
-/* SEC03 サービス
+/* SEC03 Service
 ------------------------------------------------------------*/
 .col3 li{
 	margin-bottom: 50px;
+	position: relative;
 }
 
 .col3 img{
-	max-width: 288px;
+	max-width: 400px;
+	height: 200px;
 	display: block;
 	margin: -5px auto 20px;
 }
 
+.service{
+	position: absolute;
+  top: 45%;
+	width: 50%;
+	-webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+	color: black;
+	text-align: center;
+	background-color: #DDD;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 20%;
+	opacity: 0.8;
+	font-size: 25px;
+}
 
-/* SEC04 会社情報
+
+/* SEC04 Profile
 ------------------------------------------------------------*/
 #sec04{
 	background: image-url('bgSec04.jpg') no-repeat 100% 100% fixed;
@@ -301,7 +319,7 @@ section h3{
 }
 
 
-/* SEC05 お問い合わせ
+/* SEC05 Contact
 ------------------------------------------------------------*/
 #sec05{
 	padding-top: 50px;
@@ -348,18 +366,6 @@ section h3{
 	width: 100% !important;
 	height: 100% !important;
 	border: 0;
-}
-
-
-/* OLD RICE
-------------------------------------------------------------*/
-.ricelist{
-	text-align: center;
-}
-
-.ricelist img{
-	height: 200px;
-	width: 400px;
 }
 
 
