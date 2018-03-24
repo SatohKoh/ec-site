@@ -6,6 +6,16 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get brand" do
+    get static_pages_brand_url
+    assert_response :success
+  end
+
+  test "should get about" do
+    get static_pages_about_url
+    assert_response :success
+  end
+
   test "should get old" do
     get static_pages_old_url
     assert_response :success
