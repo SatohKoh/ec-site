@@ -5,45 +5,75 @@
 	<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
 	<div class="panel">
 		<ul>
-			<li><a href="#header">TOP</a></li>
-			<li><a href="#sec01">当社の思い</a></li>
-			<li><a href="#sec02">事業概要</a></li>
-			<li><a href="#sec03">サービス</a></li>
-			<li><a href="#sec04">会社情報</a></li>
-			<li><a href="#sec05">お問い合わせ</a></li>
+			<li><a href="#header">Top</a></li>
+			<li><a href="#sec01">Message</a></li>
+			<li><a href="#sec02">Service</a></li>
+			<li><a href="#sec03">Profile</a></li>
+			<li><a href="#sec04">Contact</a></li>
 		</ul>
 	</div>
 </nav>
 
 <header id="header">
   <%= image_tag 'top.jpg' %>
-	<div id="slogan">
-		<h1>農業を身近に</h1>
-		<h2>〜生産者と消費者をつなぐ〜</h2>
+	<div class="company-name">
+		<h1>株式会社Smile<h1>
 	</div>
+	<div class="slogan">
+		<h1>農業を身近に</h1>
+	</div>
+	<div class="sub-slogan">
+		<h2>〜生産者と消費者をつなぐECサイト〜</h2>
+	</div>
+	<a href="/old">
+		<div class="shop-1">
+			<h2>Online Shop<hr size=2 color=gray width="80%" align="center">熟成米<h2>
+		</div>
+	</a>
+	<a href="/new">
+		<div class="shop-2">
+			<h2>Online Shop<hr size=2 color=gray width="80%" align="center">新米<h2>
+		</div>
+	</a>
 </header>
 
-<!-- 当社の思い -->
+<!-- Message -->
 <section id="sec01">
 	<header>
-		<h2>当社の思い</h2>
+		<h2>Message</h2>
 	</header>
-	<div class="about">
+	<div class="message">
 		日本では、地方から都市部へと人財の流出が起こり、一極集中型の社会となっています。<br>当社は『農業が魅力的で誰もが従事したいと思える産業に』すべく事業を行い、地方の魅力を少しでも上げられるよう、邁進致します。<br>その中で、生産者と消費者をつなぎ、農業を介して地方と都市部の距離を縮めたいと思います。
 	</div>
+	<div class="inner">
+		<ul class="col2">
+			<li>
+				<%= image_tag 'brand.jpg' %>
+				<div class="brand">
+					<h3>Brand History<hr size=2 color=gray width="80%" align="center">私たちの思い<h3>
+				</div>
+			</li>
+			<li>
+				<%= image_tag 'about.jpg' %>
+				<div class="about">
+					<h3>About<hr size=2 color=gray width="80%" align="center">当社について<h3>
+				</div>
+			</li>
+		</ul>
+	</div>
 </section>
-<!-- // 当社の思い -->
+<!-- // Message -->
 
-<!-- 事業概要 -->
+<!-- Service -->
 <section id="sec02">
 	<header>
-		<h2>事業概要</h2>
+		<h2>Service</h2>
 	</header>
 	<div class="wrap">
 		<%= image_tag 'gaiyou.png' %>
 	</div>
 </section>
-<!-- // 事業概要 -->
+<!-- // Service -->
 
 <!-- サービス -->
 <section id="sec03">
