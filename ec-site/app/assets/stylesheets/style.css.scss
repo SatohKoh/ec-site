@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
-@import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
 @import url(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
 
 
@@ -191,6 +190,7 @@ section h3{
 	font-size: 20px;
 	font-weight:normal;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .inner{
@@ -217,6 +217,8 @@ section h3{
 
 .text{
 	font-size: 18px;
+	text-align: left;
+	line-height: 150%;
 }
 
 .text-center{
@@ -278,6 +280,7 @@ header h2{
 .about h3{
 	font-size: 25px;
 	font-weight:normal;
+	margin-bottom: 20px;
 }
 
 /* SEC02 Service
