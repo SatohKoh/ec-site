@@ -11,7 +11,7 @@ $(function(){
 		var headerH =0;
 	}
 	else{
-		var headerH =63;
+		var headerH =60;
 	}
 
 	$(nav).on('click', function(){
