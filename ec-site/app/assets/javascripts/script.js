@@ -1,6 +1,5 @@
-// クリックでページ内移動
 $(function(){
-
+	// ページ内移動
 	var
 		winW = $(window).width(),
 		winH = $(window).height(),
@@ -70,10 +69,9 @@ $(function(){
 			$('#mainnav').removeClass('changeNav');
 		}
 	});
-});
 
-$(function(){
-		$('#ImageMap').mapster({
+	// mapster
+	$('#ImageMap').mapster({
 		singleSelect : true,
 		clickNavigate : true,
 		render_highlight : { altImage : 'map-2.png' },
