@@ -74,7 +74,7 @@ $(function(){
 	$('#ImageMap').mapster({
 		singleSelect : true,
 		clickNavigate : true,
-		render_highlight : { altImage : 'map-2.png' },
+		render_highlight : { altImage : 'assets/map-2.png' },
 		mapKey: 'region',
 		fillOpacity : 0.5,
 	});
