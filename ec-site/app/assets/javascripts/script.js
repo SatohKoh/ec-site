@@ -1,24 +1,24 @@
 $(function(){
-	// ページ内移動
+
 	var
-		winW = $(window).width(),
+	  winW = $(window).width(),
 		winH = $(window).height(),
-		nav = $('ul a'),
+		nav = $('#mainnav ul a'),
 		curPos = $(this).scrollTop();
 
 	if (winW < 880){
 		var headerH =0;
 	}
 	else{
-		var headerH =60;
+		var headerH =59;
 	}
 
 	$(nav).on('click', function(){
 		nav.removeClass('active');
-		var $el = $(this),
+  	var $el = $(this),
 		id = $el.attr('href');
  		$('html, body').animate({
-			scrollTop: $(id).offset().top - headerH
+   		scrollTop: $(id).offset().top - headerH
  		}, 500);
 		$(this).addClass('active');
 		if (winW < 880){
@@ -39,12 +39,12 @@ $(function(){
 
 			if(w > 800){
 				$(function(){
-					$(".vMid").css('height', bgH);
+			  	$(".vMid").css('height', bgH);
 				});
 			}
 			else{
 				$(function(){
-					$(".vMid").css({'height':'auto','padding':'50px 20px'});
+			  	$(".vMid").css({'height':'auto','padding':'50px 20px'});
 				});
 			}
 		});
