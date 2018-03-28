@@ -213,6 +213,7 @@ section h3{
 
 .col2 img{
 	height: 300px;
+	width: 100%;
 }
 
 .text{
@@ -245,6 +246,7 @@ header h2{
 .brand{
 	position: absolute;
   top: 50%;
+	left: 25%;
 	width: 50%;
 	-webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -253,7 +255,6 @@ header h2{
 	background-color: #DDD;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-left: 17.5%;
 	opacity: 0.8;
 }
 
@@ -265,6 +266,7 @@ header h2{
 .about{
 	position: absolute;
   top: 50%;
+	left: 25%;
 	width: 50%;
 	-webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -273,7 +275,6 @@ header h2{
 	background-color: #DDD;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-left: 17.5%;
 	opacity: 0.8;
 }
 
@@ -294,21 +295,28 @@ header h2{
 
 /* SEC03 Service
 ------------------------------------------------------------*/
+.col3{
+	position: relative;
+  overflow:hidden;
+  text-align: center;
+}
+
 .col3 li{
 	margin-bottom: 50px;
+	display: inline-block;
 	position: relative;
 }
 
 .col3 img{
-	max-width: 400px;
-	height: 200px;
+	width: 100%;
+	height: 230px;
 	display: block;
-	margin: -5px auto 20px;
 }
 
 .service{
 	position: absolute;
-  top: 45%;
+  top: 50%;
+	left: 25%;
 	width: 50%;
 	-webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -317,7 +325,6 @@ header h2{
 	background-color: #DDD;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	margin-left: 20%;
 	opacity: 0.8;
 	font-size: 25px;
 }
