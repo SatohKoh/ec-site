@@ -74,8 +74,43 @@ $(function(){
 	$('#ImageMap').mapster({
 		singleSelect : true,
 		clickNavigate : true,
-		render_highlight : { altImage : 'assets/map-2.png' },
 		mapKey: 'region',
+		areas: [{
+			key: 'hokkaido',
+			render_highlight : { altImage : 'assets/map-2.png' },
+		},
+		{
+			key: 'tohoku',
+			render_highlight : { altImage : 'assets/map-2.png' },
+		}],
+		areas: [{
+			key: 'kanto',
+			render_highlight : { altImage : 'assets/map-2.png' },
+		},
+		{
+			key: 'hokuriku',
+			render_highlight : { altImage : 'assets/map-2.png' },
+		}],
+		areas: [{
+			key: 'kinki',
+			render_highlight : { altImage : 'assets/map-2.png' },
+		},
+		{
+			key: 'chugoku',
+			render_highlight : { altImage : 'assets/map-2.png' },
+		}],
+		areas: [{
+			key: 'shikoku',
+			render_highlight : { altImage : 'assets/map-2.png' },
+		},
+		{
+			key: 'kyushu',
+			render_highlight : { altImage : 'assets/map-2.png' },
+		}],
 		fillOpacity : 0.5,
+		// stroke: true,
+		// strokeColor: 'black',
+		// strokeOpacity: 1,
+		// strokeWidth: 2,
 	});
 });
