@@ -226,20 +226,20 @@ header h2{
   margin-bottom: 20px;
 }
 
-
-/* SEC01 Message
-------------------------------------------------------------*/
-#sec01 .col2 img{
-	height: 300px;
-	width: 100%;
-}
-
 .message{
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 40px;
 	font-size: 18px;
   line-height: 150%;
+}
+
+
+/* SEC01 Message
+------------------------------------------------------------*/
+#sec01 .col2 img{
+	height: 300px;
+	width: 100%;
 }
 
 .brand{
@@ -328,7 +328,7 @@ header h2{
 }
 
 #sec03 .col2 p{
-	font-size: 25px;
+	font-size: 20px;
 	padding-top: 15px;
 	padding-bottom: 5px;
 }
@@ -394,7 +394,61 @@ header h2{
 	border: 0;
 }
 
-/* 熟成米
+
+/* ブランドヒストリー
+------------------------------------------------------------*/
+.brand-container{
+	background: image-url('omoi.jpg') no-repeat 100% 100% fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	color: #fff;
+	padding: 10% 5%;
+	text-align: left;
+	font-size: 20px;
+	line-height: 120%;
+	opacity: 0.8;
+}
+
+.vision-container{
+	background: image-url('vision.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	color: #fff;
+	text-align: left;
+	font-size: 20px;
+	line-height: 120%;
+	margin-top: 5%;
+	opacity: 0.9;
+}
+
+#vision-mission{
+	color: black;
+}
+
+#vision{
+	color: white;
+}
+
+#mission{
+	color: white;
+}
+
+.vison-mission{
+	color: black;
+}
+
+.vision{
+	text-align: center;
+	font-size: 25px;
+}
+
+.mission{
+	text-align: center;
+	font-size: 25px;
+	line-height: 150%;
+}
+
+/* お手頃米
 ------------------------------------------------------------*/
 .onsale{
 	position: absolute;
@@ -418,7 +472,7 @@ header h2{
 	margin-bottom: 20px;
 }
 
-/* 新米
+/* ブランド米
 ------------------------------------------------------------*/
 #mapster_wrap_0{
 	margin-left: auto;
