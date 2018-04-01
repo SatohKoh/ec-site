@@ -70,47 +70,64 @@ $(function(){
 		}
 	});
 
-	// mapster
+	$('img[usemap]').rwdImageMaps();
+
+	// image mapster
 	$('#ImageMap').mapster({
 		singleSelect : true,
 		clickNavigate : true,
 		mapKey: 'region',
-		areas: [{
-			key: 'hokkaido',
-			render_highlight : { altImage : 'assets/map-2.png' },
-		},
-		{
-			key: 'tohoku',
-			render_highlight : { altImage : 'assets/map-2.png' },
-		}],
-		areas: [{
-			key: 'kanto',
-			render_highlight : { altImage : 'assets/map-2.png' },
-		},
-		{
-			key: 'hokuriku',
-			render_highlight : { altImage : 'assets/map-2.png' },
-		}],
-		areas: [{
-			key: 'kinki',
-			render_highlight : { altImage : 'assets/map-2.png' },
-		},
-		{
-			key: 'chugoku',
-			render_highlight : { altImage : 'assets/map-2.png' },
-		}],
-		areas: [{
-			key: 'shikoku',
-			render_highlight : { altImage : 'assets/map-2.png' },
-		},
-		{
-			key: 'kyushu',
-			render_highlight : { altImage : 'assets/map-2.png' },
-		}],
-		fillOpacity : 0.5,
-		// stroke: true,
-		// strokeColor: 'black',
-		// strokeOpacity: 1,
-		// strokeWidth: 2,
+		areas: [
+			{
+				key: 'dummy',
+				render_highlight : { altImage : 'assets/map-1.png' },
+				fillOpacity : 0.0,
+			},
+			{
+				key: 'hokkaido',
+				render_highlight : { altImage : 'assets/map-4.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'tohoku',
+				render_highlight : { altImage : 'assets/map-4.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'kanto',
+				render_highlight : { altImage : 'assets/map-4.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'hokuriku',
+				render_highlight : { altImage : 'assets/map-4.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'tokai',
+				render_highlight : { altImage : 'assets/map-4.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'kinki',
+				render_highlight : { altImage : 'assets/map-4.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'chugoku',
+				render_highlight : { altImage : 'assets/map-4.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'shikoku',
+				render_highlight : { altImage : 'assets/map-4.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'kyushu',
+				render_highlight : { altImage : 'assets/map-4.png' },
+				fillOpacity : 1.0,
+			}
+		],
 	});
 });
