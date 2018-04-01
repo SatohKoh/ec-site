@@ -7,7 +7,8 @@
 		<ul>
 			<li><a href="#header">Top</a></li>
 			<li><a href="#sec01">Message</a></li>
-			<li><a href="#sec03">Service</a></li>
+			<li><a href="#sec02">Service</a></li>
+			<li><a href="#sec03">Journal</a></li>
 			<li><a href="#sec04">Profile</a></li>
 			<li><a href="#sec05">Contact</a></li>
 		</ul>
@@ -25,16 +26,16 @@
 	<div class="sub-slogan" id="slogan">
 		<h2>〜生産者と消費者をつなぐECサイト〜</h2>
 	</div>
-	<a href="/old">
+	<%= link_to '/old' do %>
 		<div class="shop-1" id="slogan">
 			<h2>Online Shop<hr size=2 color=gray width="80%" align="center">熟成米<h2>
 		</div>
-	</a>
-	<a href="/new">
+	<% end %>
+	<%= link_to '/new' do %>
 		<div class="shop-2" id="slogan">
 			<h2>Online Shop<hr size=2 color=gray width="80%" align="center">新米<h2>
 		</div>
-	</a>
+	<% end %>
 </header>
 
 <!-- Message -->
@@ -47,29 +48,29 @@
 	</div>
 	<div class="inner">
 		<ul class="col2">
-			<a href="/brand">
+			<%= link_to '/brand' do %>
 				<li>
 					<%= image_tag 'brand.jpg' %>
 					<div class="brand">
 						<h3>Brand History<hr size=2 color=gray width="80%" align="center">私たちの思い<h3>
 					</div>
 				</li>
-			</a>
-			<a href="/about">
+			<% end %>
+			<%= link_to '/about' do %>
 				<li>
 					<%= image_tag 'about.jpg' %>
 					<div class="about">
 						<h3>About<hr size=2 color=gray width="80%" align="center">当社について<h3>
 					</div>
 				</li>
-			</a>
+			<% end %>
 		</ul>
 	</div>
 </section>
 <!-- // Message -->
 
 <!-- Service -->
-<section id="sec03">
+<section id="sec02">
 	<header>
 		<h2>Service</h2>
 	</header>
@@ -96,17 +97,48 @@
 </section>
 <!-- // Service -->
 
-<!-- Profile -->
-<section id="sec04">
+<!-- Journal -->
+<section id="sec03">
+	<header>
+		<h2>Journal</h2>
+	</header>
 	<div class="inner">
 		<ul class="col2">
 			<li>
-				<h2>STORY</h2>
-				<p>科学的研究というのが近代史学の学問的方法によるちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。研究という意義であるならば、研究という意義であるならばこれは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいうには及ばないはずである。</p>
+				<%= link_to image_tag('science.png'), '#sec03' %>
+				<p>お米の科学①<br><br>お米って体にいいの？</p>
 			</li>
 			<li>
-				<h2>SUCCESS</h2>
-				<p>ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれているということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいうには及ばないはずである。</p>
+				<%= link_to image_tag('susugi.png'), '#sec03' %>
+				<p>お米の味を最大限引き出す方法①<br><br>どうやってすすぐの？</p>
+			</li>
+		</ul>
+	</div>
+	<div class="inner">
+		<ul class="col2">
+			<li>
+				<%= link_to image_tag('scene.jpg'), '#sec03' %>
+				<p>【絶景】田園風景①<br><br>白米千牧田</p>
+			</li>
+			<li>
+				<%= link_to image_tag('paeria.jpg'), '#sec03' %>
+				<p>世界のお米料理①<br><br>パエリア＠スペイン</p>
+			</li>
+		</ul>
+	</div>
+</section>
+<!-- // Journal -->
+
+<!-- Profile -->
+<section id="sec04">
+	<header>
+		<h2>Profile</h2>
+	</header>
+	<div class="inner">
+		<ul class="col2">
+			<li>
+			</li>
+			<li>
 			</li>
 		</ul>
 	</div>
@@ -116,7 +148,7 @@
 <!-- Contact -->
 <section id="sec05">
 	<header>
-		<h2>PROFILE</h2>
+		<h2>Contact</h2>
 	</header>
 	<div class="inner">
 		<ul class="col2">

@@ -208,12 +208,7 @@ section h3{
 	display: inline-block;
 	position: relative;
 	width: 100%;
-	text-align: left;
-}
-
-.col2 img{
-	height: 300px;
-	width: 100%;
+	text-align: center;
 }
 
 .text{
@@ -234,6 +229,10 @@ header h2{
 
 /* SEC01 Message
 ------------------------------------------------------------*/
+#sec01 .col2 img{
+	height: 300px;
+	width: 100%;
+}
 
 .message{
 	width: 60%;
@@ -284,16 +283,8 @@ header h2{
 	margin-bottom: 20px;
 }
 
+
 /* SEC02 Service
-------------------------------------------------------------*/
-.wrap{
-	width: 60%;
-	background: #fff;
-	margin: 0 auto;
-}
-
-
-/* SEC03 Service
 ------------------------------------------------------------*/
 .col3{
 	position: relative;
@@ -329,21 +320,35 @@ header h2{
 	font-size: 25px;
 }
 
+/* SEC03 Journal
+------------------------------------------------------------*/
+#sec03 .col2 img{
+	height: 250px;
+	width: 90%;
+}
+
+#sec03 .col2 p{
+	font-size: 25px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+
 
 /* SEC04 Profile
 ------------------------------------------------------------*/
 #sec04{
-	background: image-url('bgSec04.jpg') no-repeat 100% 100% fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
-	color: #fff;
+	// background: image-url('bgSec04.jpg') no-repeat 100% 100% fixed;
+	// background-size: cover;
+	// -webkit-background-size: cover;
+	// color: #fff;
 }
 
 
 /* SEC05 Contact
 ------------------------------------------------------------*/
 #sec05{
-	padding-top: 50px;
+	// padding-top: 50px;
 }
 
 #sec05 dl{
@@ -546,7 +551,7 @@ header h2{
 	/* SEC05 PROFILE
 	-----------------*/
 	#sec05{
-		padding-top: 120px;
+		// padding-top: 120px;
 	}
 
   #footer{
