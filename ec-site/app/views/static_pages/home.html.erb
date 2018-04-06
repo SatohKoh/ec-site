@@ -76,21 +76,24 @@
 	</header>
 	<div class="inner">
 		<ul class="col3">
-			<a href="/old">
+			<%= link_to '/old' do %>
 				<li>
 					<%= image_tag 'oldrice.jpg' %>
 					<div class="service">お手頃米</div>
+					<p>各地域で取れた美味しいお米を、<br>産地直送でお送りいたします。<br>お手頃な金額で美味しいお米を是非ご賞味ください。</p>
 				</li>
-			</a>
-			<a href="/new">
+			<% end %>
+			<%= link_to '/new' do %>
 				<li>
 					<%= image_tag 'newrice.jpg' %>
 					<div class="service">ブランド米</div>
+					<p>実はみなさんの知らない良質なお米があるんです。<br>隠れた名米を地域ごとに厳選しました。<br>是非お試しください。</p>
 				</li>
-			</a>
+			<% end %>
 			<li>
 				<%= image_tag 'experience2.jpg' %>
 				<div class="service">体験</div>
+				<p>Coming Soon</p>
 			</li>
 		</ul>
 	</div>
