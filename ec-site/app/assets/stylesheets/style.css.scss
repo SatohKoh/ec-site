@@ -98,8 +98,8 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 .shop-1{
 	position: absolute;
   top: 80%;
-	right: 20%;
-	width: 15%;
+	right: 13%;
+	width: 10%;
 	-webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
 	color: black;
@@ -115,7 +115,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	position: absolute;
   top: 80%;
 	right: 2.5%;
-	width: 15%;
+	width: 10%;
 	-webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
 	color: black;
@@ -146,12 +146,12 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 .shop-1 h2{
-	font-size: 25px;
+	font-size: 20px;
 	font-weight:normal;
 }
 
 .shop-2 h2{
-	font-size: 25px;
+	font-size: 20px;
 	font-weight:normal;
 }
 
@@ -202,6 +202,7 @@ section h3{
 	position: relative;
   overflow:hidden;
   text-align: center;
+	margin-bottom: 15px;
 }
 
 .col2 li{
