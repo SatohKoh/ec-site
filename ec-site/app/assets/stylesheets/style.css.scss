@@ -27,7 +27,7 @@ body{
 }
 
 a{
-	color: #0066ff;
+	color: gray;
 	text-decoration: none;
 }
 
@@ -486,6 +486,13 @@ header h2{
 	margin-right: auto;
 }
 
+/* お米詳細
+------------------------------------------------------------*/
+.button{
+	background-color: #DDD;
+	padding: 10px;
+	border: solid;
+}
 
 
 /* 購入画面
