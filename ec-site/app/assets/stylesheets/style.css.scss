@@ -238,7 +238,7 @@ header h2{
 /* SEC01 Message
 ------------------------------------------------------------*/
 #sec01 .col2 img{
-	height: 300px;
+	height: 100%;
 	width: 100%;
 }
 
@@ -455,7 +455,7 @@ header h2{
 	line-height: 150%;
 }
 
-/* お手頃米
+/* 玄米
 ------------------------------------------------------------*/
 .onsale{
 	position: absolute;
@@ -479,7 +479,11 @@ header h2{
 	margin-bottom: 20px;
 }
 
-/* ブランド米
+#sec01 .col2 img .genmai{
+	height: 100px;
+}
+
+/* 白米
 ------------------------------------------------------------*/
 #mapster_wrap_0{
 	margin-left: auto;

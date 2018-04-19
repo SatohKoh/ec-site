@@ -72,8 +72,8 @@ $(function(){
 
 	$('img[usemap]').rwdImageMaps();
 
-	// image mapster
-	$('#ImageMap').mapster({
+	// image mapster 玄米
+	$('#ImageMap-genmai').mapster({
 		singleSelect : true,
 		clickNavigate : true,
 		mapKey: 'region',
@@ -85,47 +85,106 @@ $(function(){
 			},
 			{
 				key: 'hokkaido',
-				render_highlight : { altImage : 'assets/map-4.png' },
+				render_highlight : { altImage : 'assets/map-genmai.png' },
 				fillOpacity : 1.0,
 			},
 			{
 				key: 'tohoku',
-				render_highlight : { altImage : 'assets/map-4.png' },
+				render_highlight : { altImage : 'assets/map-genmai.png' },
 				fillOpacity : 1.0,
 			},
 			{
 				key: 'kanto',
-				render_highlight : { altImage : 'assets/map-4.png' },
+				render_highlight : { altImage : 'assets/map-genmai.png' },
 				fillOpacity : 1.0,
 			},
 			{
 				key: 'hokuriku',
-				render_highlight : { altImage : 'assets/map-4.png' },
+				render_highlight : { altImage : 'assets/map-genmai.png' },
 				fillOpacity : 1.0,
 			},
 			{
 				key: 'tokai',
-				render_highlight : { altImage : 'assets/map-4.png' },
+				render_highlight : { altImage : 'assets/map-genmai.png' },
 				fillOpacity : 1.0,
 			},
 			{
 				key: 'kinki',
-				render_highlight : { altImage : 'assets/map-4.png' },
+				render_highlight : { altImage : 'assets/map-genmai.png' },
 				fillOpacity : 1.0,
 			},
 			{
 				key: 'chugoku',
-				render_highlight : { altImage : 'assets/map-4.png' },
+				render_highlight : { altImage : 'assets/map-genmai.png' },
 				fillOpacity : 1.0,
 			},
 			{
 				key: 'shikoku',
-				render_highlight : { altImage : 'assets/map-4.png' },
+				render_highlight : { altImage : 'assets/map-genmai.png' },
 				fillOpacity : 1.0,
 			},
 			{
 				key: 'kyushu',
-				render_highlight : { altImage : 'assets/map-4.png' },
+				render_highlight : { altImage : 'assets/map-genmai.png' },
+				fillOpacity : 1.0,
+			}
+		],
+	});
+
+	// image mapster 白米
+	$('#ImageMap-hakumai').mapster({
+		singleSelect : true,
+		clickNavigate : true,
+		mapKey: 'region',
+		areas: [
+			{
+				key: 'dummy',
+				render_highlight : { altImage : 'assets/map-1.png' },
+				fillOpacity : 0.0,
+			},
+			{
+				key: 'hokkaido',
+				render_highlight : { altImage : 'assets/map-hakumai.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'tohoku',
+				render_highlight : { altImage : 'assets/map-hakumai.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'kanto',
+				render_highlight : { altImage : 'assets/map-hakumai.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'hokuriku',
+				render_highlight : { altImage : 'assets/map-hakumai.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'tokai',
+				render_highlight : { altImage : 'assets/map-hakumai.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'kinki',
+				render_highlight : { altImage : 'assets/map-hakumai.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'chugoku',
+				render_highlight : { altImage : 'assets/map-hakumai.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'shikoku',
+				render_highlight : { altImage : 'assets/map-hakumai.png' },
+				fillOpacity : 1.0,
+			},
+			{
+				key: 'kyushu',
+				render_highlight : { altImage : 'assets/map-hakumai.png' },
 				fillOpacity : 1.0,
 			}
 		],
