@@ -9,8 +9,8 @@
 			<li><a href="#sec01">Message</a></li>
 			<li><a href="#sec02">Service</a></li>
 			<li><a href="#sec03">Journal</a></li>
-			<li><a href="#sec04">Profile</a></li>
-			<li><a href="#sec05">Contact</a></li>
+			<li><a href="#sec04">Contact</a></li>
+			<li><a href="#sec05">Profile</a></li>
 		</ul>
 	</div>
 </nav>
@@ -132,26 +132,32 @@
 </section>
 <!-- // Journal -->
 
-<!-- Profile -->
+<!-- Contact -->
 <section id="sec04">
 	<header>
-		<h2>Profile</h2>
+		<h2>Contact</h2>
 	</header>
 	<div class="inner">
 		<ul class="col2">
 			<li>
+				<%= link_to '/contact' do %>
+					<h2>事前予約ページへ</h2>
+				<% end %>
 			</li>
 			<li>
+				<%= link_to '#' do %>
+					<h2>コンタクトページへ</h2>
+				<% end %>
 			</li>
 		</ul>
 	</div>
 </section>
-<!-- // Profile -->
+<!-- // Contact -->
 
-<!-- Contact -->
+<!-- Profile -->
 <section id="sec05">
 	<header>
-		<h2>Contact</h2>
+		<h2>Profile</h2>
 	</header>
 	<div class="inner">
 		<ul class="col2">
@@ -183,6 +189,6 @@
 		</ul>
 	</div>
 </section>
-<!-- // Contact -->
+<!-- // Profile -->
 
 </body>

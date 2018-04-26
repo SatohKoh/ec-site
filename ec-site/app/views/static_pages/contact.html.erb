@@ -1,0 +1,33 @@
+<% provide(:title, "Contact") %>
+<body>
+  <section id="sec01">
+    <h2>事前予約<h2>
+
+    <div class="form-style-2">
+      <form action="https://formspree.io/miraclekaeland32@gmail.com" method="post">
+        <label for="field1">
+          <span>お名前 <span class="required">*</span></span>
+          <input type="text" class="input-field" name="field1" value="" />
+        </label>
+        <label for="field2">
+          <span>メールアドレス <span class="required">*</span></span>
+          <input type="text" class="input-field" name="field2" value="" />
+        </label>
+        <label>
+          <span>電話番号</span>
+          <input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  />
+        </label>
+        <label for="field5">
+          <span>購入希望商品 <span class="required">*</span></span>
+          <textarea name="field5" class="textarea-field"></textarea>
+        </label>
+
+        <label>
+          <span>&nbsp;</span>
+          <input type="submit" value="送信" />
+        </label>
+      </form>
+    </div>
+    <%= link_to 'トップページへ', root_path, class:"to-top" %>
+  </section>
+</body>
