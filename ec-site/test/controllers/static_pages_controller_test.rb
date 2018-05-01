@@ -31,8 +31,13 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get hokkaido" do
-    get hokkaido_path
+  test "should get genmaiYukihotaka" do
+    get genmaiYukihotaka_path
+    assert_response :success
+  end
+
+  test "should get hakumaiYukihotaka" do
+    get hakumaiYukihotaka_path
     assert_response :success
   end
 end

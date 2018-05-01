@@ -17,6 +17,9 @@ class StaticPagesController < ApplicationController
   def new
   end
 
-  def hokkaido
+  def genmaiYukihotaka
+  end
+
+  def hakumaiYukihotaka
   end
 end

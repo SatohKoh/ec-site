@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   get '/contact', to: 'static_pages#contact'
   get '/old', to: 'static_pages#old'
   get '/new', to: 'static_pages#new'
-  get '/hokkaido', to: 'static_pages#hokkaido'
-  get 'products/1'
+  get '/genmaiYukihotaka', to: 'static_pages#genmaiYukihotaka'
+  get '/hakumaiYukihotaka', to: 'static_pages#hakumaiYukihotaka'
 
   resources :products do
     post :pay, on: :member
