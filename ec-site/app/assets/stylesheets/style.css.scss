@@ -211,6 +211,10 @@ section h3{
 	text-align: center;
 }
 
+.col2-1{
+	margin-bottom: 40px; // ***ここでJqueryの上下差生まれる***
+}
+
 .text{
 	font-size: 18px;
 	text-align: left;
@@ -747,14 +751,30 @@ header h2{
 		font-size: 14px;
 	}
 
+	.sub-slogan{
+		width: 70%;
+		margin-left: 15%;
+	}
+
 	.shop-1{
-		padding-top: 5px;
+		padding-top: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
 		padding-bottom: 0px;
+		right: 30%;
+		width: 20%;
 	}
 
 	.shop-2{
-		padding-top: 5px;
+		padding-top: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
 		padding-bottom: 0px;
+		width: 20%;
+	}
+
+	.message{
+		width: 90%;
 	}
 
   a#menu{
