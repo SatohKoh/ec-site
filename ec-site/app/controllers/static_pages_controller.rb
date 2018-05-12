@@ -22,4 +22,19 @@ class StaticPagesController < ApplicationController
 
   def hakumaiYukihotaka
   end
+
+  def hakumaiChugoku
+  end
+
+  def hakumaiShimaneNita
+  end
+
+  def hakumaiShimaneHonki
+  end
+
+  def hakumaiTottoriKohu
+  end
+
+  def privacy
+  end
 end

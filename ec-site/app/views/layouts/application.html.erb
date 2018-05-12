@@ -16,7 +16,11 @@
   <body>
     <%= yield %>
     <footer id="footer">
-    	Copyright(c) 20XX Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+    	Copyright(c) Smile. All Rights Reserved.
+      <%= link_to '/privacy' do %>
+        Privacy policy.
+      <% end %>
+      Design by <a href="http://f-tpl.com" target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
     </footer>
   </body>
 </html>

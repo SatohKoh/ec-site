@@ -1,0 +1,70 @@
+<% provide(:title, "ShimaneNita") %>
+<body>
+
+  <section>
+    <header>
+  		<h2>島根県仁多産コシヒカリ</h2>
+  	</header>
+
+    <header>
+  		<h2><%= link_to "購入ページへ", 'https://tst0307sumir.thebase.in/items/10176489', {:target => "_blank", :class => "button"} %></h2>
+  	</header>
+
+    <div class="inner">
+    	<ul class="col3">
+    		<li>
+    			<h2><%= link_to "美味しい３つの理由", "#sec01" %></h2>
+    		</li>
+    		<li>
+    			<h2><%= link_to "社会的評価", "#sec03" %></h2>
+    		</li>
+    	</ul>
+    </div>
+  </section>
+
+  <section id="sec01">
+    <header>
+      <h2>美味しい３つの理由</h2>
+    </header>
+
+    <div class="inner">
+      <ul class="col2">
+        <li>
+          <p class="text">①昼夜の温度差<br>お米は昼間光合成でデンプンを作り、夜間に穂に蓄えられます。しかし夜の気温が高いとせっかく蓄えられたデンプンを消耗してしまいます。<br>稲の登熟期（穂に実の入る時期）に昼の気温が高く夜の気温が低いことがお米の旨味に大変重要な要素となります。仁多郡内の水田は標高３００～５００ｍにあり、この好条件に恵まれています。</p>
+        </li>
+        <li>
+          <%= image_tag '仁多米3.png' %>
+        </li>
+      </ul>
+    </div>
+    <div class="inner">
+      <ul class="col2">
+        <li>
+          <p class="text">②ミネラル豊富な水<br>お米５００～６００ｋｇを作るために、田起しから収穫するまでには、１５０ｔもの水を必要とすると言われています。たくさんの水を必要とするお米だからこそ、水は命なのです。仁多郡は面積の約９割を占める豊富な森林に覆われ、雪解けの花崗岩から湧き出るミネラルたっぷりの岩清水が仁多米を育みます。</p>
+        </li>
+        <li>
+          <%= image_tag '仁多米4.png' %>
+        </li>
+      </ul>
+    </div>
+    <div class="inner">
+      <ul class="col2">
+        <li>
+          <p class="text">③堆肥を使った土作り<br>仁多郡内では和牛の飼育が盛んで、現在でも郡内で約４，０００頭もの和牛が飼育されています。安全安心な土づくりのため大規模な堆肥センターを建設し、完熟堆肥による仁多米生産を行っています。 </p>
+        </li>
+        <li>
+          <%= image_tag '仁多米5.png' %>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="sec03">
+    <header>
+  		<h2>社会的評価</h2>
+  	</header>
+    <div class="message">
+      米・食味コンクールの金賞常連であり、多数の受賞実績があります。<br>第19回コンクール(2017年)でも国際大会で金賞を受賞するなど、東の「魚沼」、西の「仁多」を言われるほどの、日本屈指の名米です。
+    </div>
+  </section>
+</body>

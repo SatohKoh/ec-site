@@ -8,6 +8,11 @@ Rails.application.routes.draw do
   get '/new', to: 'static_pages#new'
   get '/genmaiYukihotaka', to: 'static_pages#genmaiYukihotaka'
   get '/hakumaiYukihotaka', to: 'static_pages#hakumaiYukihotaka'
+  get '/hakumaiChugoku', to: 'static_pages#hakumaiChugoku'
+  get '/hakumaiShimaneNita', to: 'static_pages#hakumaiShimaneNita'
+  get '/hakumaiShimaneHonki', to: 'static_pages#hakumaiShimaneHonki'
+  get '/hakumaiTottoriKohu', to: 'static_pages#hakumaiTottoriKohu'
+  get '/privacy', to: 'static_pages#privacy'
 
   resources :products do
     post :pay, on: :member

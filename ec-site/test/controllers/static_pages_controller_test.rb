@@ -40,4 +40,29 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get hakumaiYukihotaka_path
     assert_response :success
   end
+
+  test "should get hakumaiChugoku" do
+    get hakumaiChugoku_path
+    assert_response :success
+  end
+
+  test "should get hakumaiShimaneNita" do
+    get hakumaiShimaneNita_path
+    assert_response :success
+  end
+
+  test "should get hakumaiShimaneHonki" do
+    get hakumaiShimaneHonki_path
+    assert_response :success
+  end
+
+  test "should get hakumaiTottoriKohu" do
+    get hakumaiTottoriKohu_path
+    assert_response :success
+  end
+
+  test "should get privacy" do
+    get privacy_path
+    assert_response :success
+  end
 end

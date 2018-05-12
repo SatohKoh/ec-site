@@ -14,11 +14,29 @@
           <input type="text" class="input-field" name="field2" value="" />
         </label>
         <label>
-          <span>電話番号</span>
+          <span>電話番号<span class="required">*</span></span>
           <input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  />
         </label>
+        <label>
+          <span>ご職業</span>
+          <select name="work">
+          <option value="学生">学生</option>
+          <option value="社会人">社会人</option>
+          <option value="主婦">主婦</option>
+          </select>
+        </label>
+        <label>
+          <span>購入希望商品<span class="required">*</span></span>
+          <select name="product">
+          <option value="島根仁多米コシヒカリ 700-900円">島根仁多米コシヒカリ 700-900円</option>
+          <option value="島根隠岐郡海士町 海士の本氣米コシヒカリ 700-900円">島根隠岐郡海士町 海士の本氣米コシヒカリ 700-900円</option>
+          <option value="鳥取県奥大山江府町きぬむすめ 700円-900円">鳥取県奥大山江府町きぬむすめ 700円-900円</option>
+          <option value="群馬県川場村産コシヒカリ(雪ほたか) 780円">群馬県川場村産コシヒカリ(雪ほたか) 780円</option>
+          <option value="京都府産にこまる(変更あり) 500円-600円">京都府産にこまる(変更あり) 500円-600円</option>
+          </select>
+        </label>
         <label for="field5">
-          <span>購入希望商品 <span class="required">*</span></span>
+          <span>自由記述欄 </span>
           <textarea name="field5" class="textarea-field"></textarea>
         </label>
 

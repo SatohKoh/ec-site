@@ -1,0 +1,51 @@
+<% provide(:title, "TottoriKohu") %>
+<body>
+
+  <section>
+    <header>
+  		<h2>鳥取県江府町きぬむすめ</h2>
+  	</header>
+
+    <header>
+  		<h2><%= link_to "購入ページへ", 'https://tst0307sumir.thebase.in/items/10176489', {:target => "_blank", :class => "button"} %></h2>
+  	</header>
+
+    <div class="inner">
+    	<ul class="col3">
+    		<li>
+    			<h2><%= link_to "美味しい理由", "#sec01" %></h2>
+    		</li>
+    		<li>
+    			<h2><%= link_to "社会的評価", "#sec03" %></h2>
+    		</li>
+    	</ul>
+    </div>
+  </section>
+
+  <section id="sec01">
+    <header>
+      <h2>美味しい理由</h2>
+    </header>
+
+    <div class="inner">
+      <ul class="col2">
+        <li>
+          <p class="text">きぬむすめの美味しさの由来は水にあります。<br>その水の美味しさの秘密は、奥大山の広大なブナ林が、雨や雪解け水をろ過し、何十年、何百年に渡って湧き出てくるところに隠されています。縄文・弥生時代の昔から「神の居ます山」として固く守られ、奈良時代以降も山岳信仰の霊場として入山が厳しく制限されていました。その結果、現在のような豊かなブナ林が残っており、地中深くにたっぷりと純粋な天然水が蓄えられています。</p>
+        </li>
+        <li>
+          <%= image_tag 'きぬむすめ3.png' %>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="sec03">
+    <header>
+  		<h2>社会的評価</h2>
+  	</header>
+    <div class="message">
+      <%= image_tag 'きぬむすめ4.png' %>28年鳥取県産きぬむすめが、穀物検定協会の食味ランキングで見事4年連続となる「特A」を取得しました。今年は昨年特Aランキングを獲得した米が16もAランクに降格したなか、鳥取のきぬむすめは4年連続の快挙です。
+    </div>
+  </section>
+
+</body>
