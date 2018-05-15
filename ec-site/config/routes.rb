@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/genmaiYukihotaka', to: 'static_pages#genmaiYukihotaka'
   get '/hakumaiYukihotaka', to: 'static_pages#hakumaiYukihotaka'
   get '/hakumaiChugoku', to: 'static_pages#hakumaiChugoku'
+  get '/hakumaiKinki', to: 'static_pages#hakumaiKinki'
   get '/hakumaiShimaneNita', to: 'static_pages#hakumaiShimaneNita'
   get '/hakumaiShimaneHonki', to: 'static_pages#hakumaiShimaneHonki'
   get '/hakumaiTottoriKohu', to: 'static_pages#hakumaiTottoriKohu'

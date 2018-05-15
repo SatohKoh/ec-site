@@ -1,0 +1,32 @@
+<% provide(:title, "Nikomaru") %>
+<body>
+
+  <section>
+    <header>
+  		<h2>京都府修学院離宮産　にこまる</h2>
+      <h3>500-600円/kg（税込）</h3>
+  	</header>
+
+    <header>
+  		<h2><%= link_to "事前予約ページへ", '/contact', {:class => "button"} %></h2>
+  	</header>
+  </section>
+
+  <section id="sec01">
+
+    <div class="inner">
+      <ul class="col2">
+        <li>
+          <p class="text">京都大学教授が修学院離宮で作った、お米(品種の変更あり)。<br>
+            詳細な情報は、後日改めてアップします。<br>
+            今しばらくお待ち下さい。<br>
+            (お問い合わせには対応しております)
+          </p>
+        </li>
+        <li>
+          <%= image_tag 'kyoto.png' %>
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>

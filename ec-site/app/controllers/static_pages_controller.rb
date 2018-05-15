@@ -26,6 +26,9 @@ class StaticPagesController < ApplicationController
   def hakumaiChugoku
   end
 
+  def hakumaiKinki
+  end
+
   def hakumaiShimaneNita
   end
 

@@ -110,12 +110,12 @@ $(function(){
 			},
 			{
 				key: 'kinki',
-				render_highlight : { altImage : 'assets/kinki.png' },
+				render_highlight : { altImage : 'assets/kinki2.png' },
 				fillOpacity : 1.0,
 			},
 			{
 				key: 'chugoku',
-				render_highlight : { altImage : 'assets/chugoku.png' },
+				render_highlight : { altImage : 'assets/chugoku2.png' },
 				fillOpacity : 1.0,
 			},
 			{
@@ -169,12 +169,12 @@ $(function(){
 			},
 			{
 				key: 'kinki',
-				render_highlight : { altImage : 'assets/kinki.png' },
+				render_highlight : { altImage : 'assets/kinki2.png' },
 				fillOpacity : 1.0,
 			},
 			{
 				key: 'chugoku',
-				render_highlight : { altImage : 'assets/chugoku.png' },
+				render_highlight : { altImage : 'assets/chugoku2.png' },
 				fillOpacity : 1.0,
 			},
 			{
