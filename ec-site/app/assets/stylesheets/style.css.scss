@@ -64,6 +64,12 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	margin-left: 10%;
 }
 
+.company-name h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+	font-weight:normal;
+}
+
 .slogan{
 	position: absolute;
   top: 40%;
@@ -79,6 +85,12 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	opacity: 0.8;
 }
 
+.slogan h1{
+	font-size: 60px;
+	margin-bottom: 10px;
+	font-weight:normal;
+}
+
 .sub-slogan{
 	position: absolute;
   top: 60%;
@@ -92,6 +104,12 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	margin-left: 25%;
 	padding-top: 10px;
 	opacity: 0.8;
+}
+
+.sub-slogan h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight:normal;
 }
 
 .shop-1{
@@ -110,6 +128,11 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	opacity: 0.8;
 }
 
+.shop-1 h2{
+	font-size: 20px;
+	font-weight:normal;
+}
+
 .shop-2{
 	position: absolute;
   top: 80%;
@@ -124,29 +147,6 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	padding-top: 30px;
 	padding-bottom: 30px;
 	opacity: 0.8;
-}
-
-.company-name h1{
-	font-size: 40px;
-	margin-bottom: 20px;
-	font-weight:normal;
-}
-
-.slogan h1{
-	font-size: 60px;
-	margin-bottom: 20px;
-	font-weight:normal;
-}
-
-.sub-slogan h2{
-	font-size: 30px;
-	margin-bottom: 10px;
-	font-weight:normal;
-}
-
-.shop-1 h2{
-	font-size: 20px;
-	font-weight:normal;
 }
 
 .shop-2 h2{
